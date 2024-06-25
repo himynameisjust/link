@@ -1,0 +1,71 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page47710155.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^thanks$ page48604629.html [NC]
+RewriteRule ^thanks/$ page48604629.html [NC]
+
+RewriteRule ^w/thanks$ page50035889.html [NC]
+RewriteRule ^w/thanks/$ page50035889.html [NC]
+
+RewriteRule ^aipython$ page47710155.html [NC]
+RewriteRule ^aipython/$ page47710155.html [NC]
+
+RewriteRule ^java-developer$ page50106633.html [NC]
+RewriteRule ^java-developer/$ page50106633.html [NC]
+
+RewriteRule ^web-designer$ page50791527.html [NC]
+RewriteRule ^web-designer/$ page50791527.html [NC]
+
+RewriteRule ^quiz$ page49739505.html [NC]
+RewriteRule ^quiz/$ page49739505.html [NC]
+
+RewriteRule ^md/quiz$ page50638515.html [NC]
+RewriteRule ^md/quiz/$ page50638515.html [NC]
+
+RewriteRule ^confidentialitate$ page47626005.html [NC]
+RewriteRule ^confidentialitate/$ page47626005.html [NC]
+
+RewriteRule ^toate-drepturile-rezervate$ page47731605.html [NC]
+RewriteRule ^toate-drepturile-rezervate/$ page47731605.html [NC]
+
+RewriteRule ^thanks3$ page48136703.html [NC]
+RewriteRule ^thanks3/$ page48136703.html [NC]
+
+RewriteRule ^w/003$ page49084751.html [NC]
+RewriteRule ^w/003/$ page49084751.html [NC]
+
+RewriteRule ^w/010$ page49266777.html [NC]
+RewriteRule ^w/010/$ page49266777.html [NC]
+
+RewriteRule ^quiz3$ page49693345.html [NC]
+RewriteRule ^quiz3/$ page49693345.html [NC]
+
+RewriteRule ^w/001$ page49672697.html [NC]
+RewriteRule ^w/001/$ page49672697.html [NC]
+
+RewriteRule ^w/aipython$ page50035887.html [NC]
+RewriteRule ^w/aipython/$ page50035887.html [NC]
+
+RewriteRule ^t009$ page51126375.html [NC]
+RewriteRule ^t009/$ page51126375.html [NC]
+
+RewriteRule ^t/003$ page51144457.html [NC]
+RewriteRule ^t/003/$ page51144457.html [NC]
+
+RewriteRule ^header$ page51199321.html [NC]
+RewriteRule ^header/$ page51199321.html [NC]
+
+RewriteRule ^w/011$ page51200307.html [NC]
+RewriteRule ^w/011/$ page51200307.html [NC]
+
+
